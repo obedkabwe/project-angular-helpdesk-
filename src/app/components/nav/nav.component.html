@@ -4,7 +4,7 @@
   <mat-drawer #drawer class="sidenav" mode="side">
     <img src="assets/imagem/side-image.svg" alt="Imagem de navigacao">
     <mat-nav-list class="nav-list">
-      <a mat-list-item routerLink="/">
+      <a mat-list-item routerLink="home">
        <i class="material-icons">home</i>
        Home
       </a>
@@ -33,6 +33,7 @@
   </mat-drawer>
 
   <div class="sidenav-content">
+    <app-header></app-header>
     <button class="menu mat-elevation-z8" mat-icon-button (click)="drawer.toggle()">
       <mat-icon>menu</mat-icon>
     </button>

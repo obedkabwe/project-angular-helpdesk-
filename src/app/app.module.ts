@@ -25,6 +25,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { ToastrModule } from 'ngx-toastr';
 
 //componentes do projeto
 import { NavComponent } from './components/nav/nav.component';
@@ -70,7 +71,12 @@ import { LoginComponent } from './components/login/login.component';
     MatSnackBarModule,
     MatMenuModule,
     MatRadioModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    ToastrModule.forRoot({
+      timeOut: 4000,
+      closeButton: true,
+      progressBar: true
+    })
 
   ],
   providers: [],

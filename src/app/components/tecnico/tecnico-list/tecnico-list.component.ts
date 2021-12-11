@@ -52,6 +52,3 @@ export interface PeriodicElement {
 
 
 
-
-
-

@@ -16,3 +16,11 @@ h1{
   width: 100%;
   margin-bottom: 2rem;
 }
+
+.edit{
+  color: blue;
+}
+
+.delete{
+  color: brown;
+}

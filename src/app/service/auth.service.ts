@@ -4,6 +4,9 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class AuthService {
+  logout() {
+    throw new Error('Method not implemented.');
+  }
 
   constructor() { }
 }
